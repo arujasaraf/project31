@@ -38,7 +38,7 @@ function draw() {
   Engine.update(engine)
   ground.display ();
   if (frameCount%60===0){
-    particels.push(new Particle(random(width/2-10,width/2+10),10,10));
+    particels.push(new Particle(random(width/2-30,width/2+30),10,10));
   }
   for(var c=0; c <particels.length; c++){
     particels[c].display();
